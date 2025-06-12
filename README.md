@@ -1,66 +1,73 @@
 # 🔍 Integrated Network Reconnaissance and Traffic Analysis Toolkit
 
-A multi-phase cybersecurity project simulating internal network reconnaissance using Metasploit, Nmap, and Wireshark. This project demonstrates both attacker-side scanning techniques and defender-side packet-level visibility.
+A multi-phase cybersecurity project that simulates internal network scanning and live traffic analysis using Metasploit, Nmap, and Wireshark. The project reflects both red-team and blue-team perspectives, with a focus on real-world tooling and practical workflow design.
 
 ---
 
 ## 🧠 Overview
 
-This project is divided into three main parts:
+This project is divided into three main phases:
 
 ### Part 1 – Environment Preparation and Manual Reconnaissance
 - Identified local VM IP and subnet
 - Initialized Metasploit with PostgreSQL
-- Conducted full TCP SYN scan using `db_nmap`
-- Discovered live hosts and open services
+- Conducted a full TCP SYN scan using `db_nmap`
+- Discovered live hosts and enumerated open services
 
 ### Part 2 – Recon Automation and Scripted Execution
-- Wrote and executed a custom automation script (`scan.sh`)
-- Automated workspace creation and subnet scanning
-- Integrated with Wireshark for live capture during execution
+- Developed a reusable automation script (`scan.sh`)
+- Automated workspace creation and scanning process
+- Ran scans alongside Wireshark to monitor real-time traffic
 
 ### Part 3 – Packet-Level Traffic Analysis with Wireshark
-- Captured Nmap scan traffic in real time
-- Applied filters to isolate SYN packets, closed port responses, and valid service responses
-- Visualized packet structure and network behavior at multiple layers
+- Captured and analyzed scan traffic in real time
+- Applied filters to view SYN scans, port rejections, and accepted traffic
+- Explored packet details to gain visibility into recon behavior
+
+---
+
+## 📎 Walkthrough & Documentation
+
+➡️ [**Click here to view the full project walkthrough (PDF slideshow)**](https://drive.google.com/file/d/1nyfxTr7tmmDKAjqvkRLH65HIu8MpMiHQ/view?usp=sharing)
+
+This slideshow includes:
+- Descriptions of all tools, commands, and steps
+- Screenshots with detailed explanations
+- Reflections on project significance and what I learned
 
 ---
 
 ## 🛠 Tools Used
 
-- Kali Linux VM  
+- Kali Linux (VM)  
 - Metasploit Framework  
 - Nmap  
 - Wireshark  
 
 ---
 
-## 📸 Screenshots
+## 📂 Files Included
 
-Included:
-- IP and subnet configuration  
-- Metasploit workspace and scan output  
-- Wireshark filter views (SYN scans, RST-ACKs, port 5000 traffic)  
-- Expanded packet-level analysis
+- `scan.sh` — automation script for recon and scanning
 
 ---
 
 ## ✅ Key Skills Demonstrated
 
-- Network enumeration and port scanning  
-- Scan automation  
-- Wireshark traffic filtering and analysis  
-- Red team recon + blue team monitoring integration  
+- Network scanning and host enumeration  
+- Recon automation and workflow building  
+- Packet-level traffic filtering and analysis  
+- Integration of offensive and defensive cyber tooling  
 
 ---
 
-## 📌 Outcome
+## 🧭 Why This Project Matters
 
-This project showcases my ability to simulate realistic internal scans and analyze their network impact from both attacker and defender perspectives. It highlights technical fluency with Metasploit, Nmap, and Wireshark—plus strong documentation and workflow design.
+As a Cybersecurity Engineering student, this project gave me hands-on experience with the types of tools and techniques used in both penetration testing and incident response. It taught me how to approach recon tasks from both an attacker’s and a defender’s perspective—and helped build confidence in my ability to use real tools in simulated environments.
 
 ---
 
 ## 🙋‍♂️ Author
 
 **@parvapar1kh**  
-Cybersecurity Engineering Student
+Cybersecurity Engineering Student  
