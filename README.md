@@ -62,5 +62,5 @@ This project showcases my ability to simulate realistic internal scans and analy
 
 ## 🙋‍♂️ Author
 
-**@yourgithubusername**  
-Cybersecurity Engineering Student | Kali Linux Enthusiast | Wireshark Explorer
+**@parvapar1kh**  
+Cybersecurity Engineering Student
