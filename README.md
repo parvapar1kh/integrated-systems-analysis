@@ -1,55 +1,67 @@
-# 🖥️ Computational Systems Research (2025)
+ # 🏗️ Integrated System Reconnaissance & Analysis Toolkit
 
-This project explores how advanced computational methods compare to traditional systems through a research proposal and simulation-based study. The focus is on **performance, scalability, adaptability, reliability, efficiency, and security** in modern technologies, with the goal of applying structured, data-driven methods to engineering problem-solving.
+A multi-phase **engineering systems project** that simulates an environment, automates reconnaissance, and studies system behavior through traffic capture and analysis. The focus is on **workflow design, automation, reproducibility, and data-driven evaluation** — skills that are valuable across engineering disciplines, from civil infrastructure to IT systems.
 
 ---
 
 ## 📖 Project Overview
 
-The research project was developed in three key stages:
+This project is divided into three phases:
 
-1. **Literature Review & Proposal**  
-   - Conducted an in-depth review of current studies on computational methods.  
-   - Compared modern approaches to traditional systems, emphasizing strengths and weaknesses.  
-   - Drafted a formal research proposal outlining methodology and objectives.  
+### Part 1 – Environment Preparation & Baseline Reconnaissance
+- Configured a controlled VM environment and documented baseline parameters.  
+- Initialized supporting services and confirmed system connectivity.  
+- Performed a structured scan to identify active hosts and catalog available services.  
 
-2. **Simulation Design**  
-   - Designed a simulation framework to evaluate system performance under different conditions.  
-   - Focused on measuring scalability, adaptability, and reliability in real-time applications.  
-   - Structured the study to highlight trade-offs between efficiency and security.  
+### Part 2 – Workflow Automation
+- Developed a reusable script (`scan.sh`) to standardize environment checks.  
+- Automated logging and traffic monitoring to ensure repeatable results.  
+- Combined scanning and monitoring to observe system response under load.  
 
-3. **Analysis & Evaluation**  
-   - Analyzed simulation outcomes to assess overall system effectiveness.  
-   - Identified conditions where modern computational methods outperform legacy approaches.  
-   - Reflected on implications for engineering problem-solving in both civil and technical contexts.  
+### Part 3 – Data Capture & Analysis
+- Collected and examined packet-level traffic in real time.  
+- Applied filters to distinguish between attempted, rejected, and accepted connections.  
+- Interpreted results to understand flow efficiency and overall system behavior.  
 
 ---
 
-## 🛠 Tools & Skills Applied
+## 📎 Documentation
 
-- **MATLAB & Computational Modeling** for simulation and analysis  
-- **Microsoft Excel** for quantitative data evaluation and visualization  
-- **Technical Writing & Structured Research** to produce the literature review and proposal  
-- **Data-Driven Analysis** to assess system trade-offs and performance  
+➡️ [**View the full walkthrough (PDF slideshow)**](https://drive.google.com/file/d/1nyfxTr7tmmDKAjqvkRLH65HIu8MpMiHQ/view?usp=sharing)  
+
+The walkthrough includes:  
+- Step-by-step explanations  
+- Annotated screenshots  
+- Reflections on methods and lessons learned  
+
+---
+
+## 🛠 Tools Used
+
+- Linux Virtual Machines  
+- Bash scripting (`scan.sh`)  
+- Data capture utilities (Wireshark)  
+- PostgreSQL-backed environment services  
 
 ---
 
 ## ✅ Key Skills Demonstrated
 
-- Designing and conducting **simulation-based studies**  
-- Performing **critical literature reviews**  
-- Applying **structured, data-driven analysis**  
-- Communicating findings through **technical writing and documentation**  
+- **System reconnaissance:** mapping and documenting infrastructure components  
+- **Automation:** scripting workflows for accuracy and reproducibility  
+- **Data analysis:** filtering and interpreting traffic to evaluate performance  
+- **Documentation:** presenting results in a professional and structured format  
 
 ---
 
-## 🎯 Why This Project Matters
+## 🧭 Engineering Relevance
 
-This project strengthened my ability to evaluate systems not only for their outputs but for their **scalability, adaptability, and security under real-world conditions**. By combining research, simulation, and structured analysis, I gained practical experience in how engineers assess the efficiency and reliability of modern systems — skills directly transferable to civil engineering, infrastructure design, and data-driven problem-solving.
+This project reflects the engineering process: **define → measure → test → analyze → recommend.**  
+By building a reproducible workflow, automating data collection, and interpreting results, the project demonstrates how structured problem-solving applies across domains — whether studying civil infrastructure, IT networks, or complex systems.
 
 ---
 
 ## 🙋 Author
 
-**Parva Parikh** (`@parvapar1kh`)  
-Civil Engineering Student | Systems & Data Analysis Enthusiast  
+**@parvapar1kh**  
+Civil Engineering Student | Systems & Data Analysis Enthusiast
