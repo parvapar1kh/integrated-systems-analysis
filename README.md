@@ -1,57 +1,66 @@
-# 🏗️ Integrated Systems Simulation & Traffic Data Analysis Toolkit
+# 🏗️ Integrated System Reconnaissance & Analysis Toolkit
 
-This project demonstrates how engineering principles of **measurement, automation, and analysis** can be applied to study system behavior in a controlled environment. The toolkit simulates a networked system, automates repeatable checks, captures traffic data, and evaluates performance patterns — highlighting skills that are directly relevant to civil and transportation engineering.
-
----
-
-## Project Overview
-
-The project progresses through three phases:
-
-1. **Environment Setup & Baseline Measurements**  
-   - Built a controlled Linux VM environment to represent an engineered system.  
-   - Established baseline conditions and documented active connections and services.  
-
-2. **Workflow Automation & Data Capture**  
-   - Created a reusable script (`scan.sh`) to automate environment checks and logging.  
-   - Standardized data capture to reduce error and ensure reproducibility.  
-   - Collected time-series traffic data for later analysis.  
-
-3. **Data Analysis & Visualization**  
-   - Analyzed captured data to evaluate flow patterns and identify bottlenecks.  
-   - Applied filters to separate accepted vs. rejected traffic.  
-   - Produced charts and summaries to support engineering-style recommendations.  
+A multi-phase **engineering systems project** that simulates an environment, performs automated reconnaissance, and studies system behavior through traffic capture and analysis. The toolkit highlights **workflow design, automation, and performance evaluation** skills that are widely applicable across engineering disciplines.
 
 ---
 
-## Tools & Methods
+## Overview
 
-- Linux Virtual Machines for controlled simulation  
-- Bash scripting (`scan.sh`) for workflow automation  
-- Traffic monitoring tools for data collection  
-- CSV and plotting utilities (Python/Excel/Matplotlib) for analysis and visualization  
+This project is divided into three main phases:
+
+### Part 1 – Environment Preparation and Baseline Reconnaissance
+- Identified system parameters including local VM IP and subnet.  
+- Initialized the environment with PostgreSQL-backed services.  
+- Conducted a baseline scan to discover active hosts and enumerate open services.  
+
+### Part 2 – Workflow Automation
+- Developed a reusable automation script (`scan.sh`).  
+- Automated environment checks and data collection processes.  
+- Collected logs and traffic data during scans to validate repeatability.  
+
+### Part 3 – Data Capture and Analysis
+- Captured traffic flows in real time to study system behavior.  
+- Applied filters to separate connection attempts, rejected traffic, and accepted traffic.  
+- Examined packet-level details to understand flow efficiency and system responses.  
+
+---
+
+## Documentation
+
+➡️ [**View the full walkthrough (PDF slideshow)**](https://drive.google.com/file/d/1nyfxTr7tmmDKAjqvkRLH65HIu8MpMiHQ/view?usp=sharing)  
+
+The walkthrough includes:
+- Descriptions of tools and steps  
+- Screenshots with annotations  
+- Reflections on what I learned from the process  
+
+---
+
+## Tools Used
+
+- Linux Virtual Machines  
+- Automation via Bash scripting (`scan.sh`)  
+- Data capture utilities (Wireshark)  
+- PostgreSQL for environment initialization  
 
 ---
 
 ## Key Skills Demonstrated
 
-- **Automation:** streamlined workflows for reproducibility and efficiency  
-- **Measurement:** established baselines and collected traffic/flow data  
-- **Analysis:** processed results to assess system performance  
-- **Communication:** documented methods and results in a professional, engineering-focused style  
+- **System reconnaissance:** mapping infrastructure and identifying active components  
+- **Automation:** scripting repeatable workflows for consistency and accuracy  
+- **Data analysis:** applying filters to study traffic patterns and efficiency  
+- **Documentation:** presenting technical results in a clear, professional format  
 
 ---
 
-## Engineering Relevance
+## Why This Project Matters
 
-This project reflects the core engineering workflow:  
-**define → measure → test → analyze → recommend.**
-
-The same approach is used in civil and transportation engineering, such as traffic studies, infrastructure monitoring, and system capacity evaluation. By simulating flows and analyzing patterns, this project shows how to apply structured, data-driven methods to solve real-world engineering problems.
+This project demonstrates how **engineering methods — defining, measuring, analyzing, and improving systems —** apply in a technical environment. By building a reproducible workflow, automating measurements, and analyzing system responses, I gained experience in the type of structured problem-solving that is critical across all areas of engineering.
 
 ---
 
 ## Author
 
-**Parva Parikh** (`@parvapar1kh`)  
+**@parvapar1kh**  
 Civil Engineering Student | Systems & Data Analysis Enthusiast
