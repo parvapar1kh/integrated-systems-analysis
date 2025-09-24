@@ -1,73 +1,57 @@
-# 🔍 Integrated Network Reconnaissance and Traffic Analysis Toolkit
+# 🏗️ Integrated Systems Simulation & Traffic Data Analysis Toolkit
 
-A multi-phase cybersecurity project that simulates internal network scanning and live traffic analysis using Metasploit, Nmap, and Wireshark. The project reflects both red-team and blue-team perspectives, with a focus on real-world tooling and practical workflow design.
-
----
-
-## 🧠 Overview
-
-This project is divided into three main phases:
-
-### Part 1 – Environment Preparation and Manual Reconnaissance
-- Identified local VM IP and subnet
-- Initialized Metasploit with PostgreSQL
-- Conducted a full TCP SYN scan using `db_nmap`
-- Discovered live hosts and enumerated open services
-
-### Part 2 – Recon Automation and Scripted Execution
-- Developed a reusable automation script (`scan.sh`)
-- Automated workspace creation and scanning process
-- Ran scans alongside Wireshark to monitor real-time traffic
-
-### Part 3 – Packet-Level Traffic Analysis with Wireshark
-- Captured and analyzed scan traffic in real time
-- Applied filters to view SYN scans, port rejections, and accepted traffic
-- Explored packet details to gain visibility into recon behavior
+This project demonstrates how engineering principles of **measurement, automation, and analysis** can be applied to study system behavior in a controlled environment. The toolkit simulates a networked system, automates repeatable checks, captures traffic data, and evaluates performance patterns — highlighting skills that are directly relevant to civil and transportation engineering.
 
 ---
 
-## 📎 Walkthrough & Documentation
+## Project Overview
 
-➡️ [**Click here to view the full project walkthrough (PDF slideshow)**](https://drive.google.com/file/d/1nyfxTr7tmmDKAjqvkRLH65HIu8MpMiHQ/view?usp=sharing)
+The project progresses through three phases:
 
-This slideshow includes:
-- Descriptions of all tools, commands, and steps
-- Screenshots with detailed explanations
-- Reflections on project significance and what I learned
+1. **Environment Setup & Baseline Measurements**  
+   - Built a controlled Linux VM environment to represent an engineered system.  
+   - Established baseline conditions and documented active connections and services.  
 
----
+2. **Workflow Automation & Data Capture**  
+   - Created a reusable script (`scan.sh`) to automate environment checks and logging.  
+   - Standardized data capture to reduce error and ensure reproducibility.  
+   - Collected time-series traffic data for later analysis.  
 
-## 🛠 Tools Used
-
-- Kali Linux (VM)  
-- Metasploit Framework  
-- Nmap  
-- Wireshark  
-
----
-
-## 📂 Files Included
-
-- `scan.sh` — automation script for recon and scanning
+3. **Data Analysis & Visualization**  
+   - Analyzed captured data to evaluate flow patterns and identify bottlenecks.  
+   - Applied filters to separate accepted vs. rejected traffic.  
+   - Produced charts and summaries to support engineering-style recommendations.  
 
 ---
 
-## ✅ Key Skills Demonstrated
+## Tools & Methods
 
-- Network scanning and host enumeration  
-- Recon automation and workflow building  
-- Packet-level traffic filtering and analysis  
-- Integration of offensive and defensive cyber tooling  
-
----
-
-## 🧭 Why This Project Matters
-
-As a Cybersecurity Engineering student, this project gave me hands-on experience with the types of tools and techniques used in both penetration testing and incident response. It taught me how to approach recon tasks from both an attacker’s and a defender’s perspective—and helped build confidence in my ability to use real tools in simulated environments.
+- Linux Virtual Machines for controlled simulation  
+- Bash scripting (`scan.sh`) for workflow automation  
+- Traffic monitoring tools for data collection  
+- CSV and plotting utilities (Python/Excel/Matplotlib) for analysis and visualization  
 
 ---
 
-## 🙋‍♂️ Author
+## Key Skills Demonstrated
 
-**@parvapar1kh**  
-Cybersecurity Engineering Student  
+- **Automation:** streamlined workflows for reproducibility and efficiency  
+- **Measurement:** established baselines and collected traffic/flow data  
+- **Analysis:** processed results to assess system performance  
+- **Communication:** documented methods and results in a professional, engineering-focused style  
+
+---
+
+## Engineering Relevance
+
+This project reflects the core engineering workflow:  
+**define → measure → test → analyze → recommend.**
+
+The same approach is used in civil and transportation engineering, such as traffic studies, infrastructure monitoring, and system capacity evaluation. By simulating flows and analyzing patterns, this project shows how to apply structured, data-driven methods to solve real-world engineering problems.
+
+---
+
+## Author
+
+**Parva Parikh** (`@parvapar1kh`)  
+Civil Engineering Student | Systems & Data Analysis Enthusiast
